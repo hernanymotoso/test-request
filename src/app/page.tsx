@@ -11,7 +11,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://devzapp.com.br/api-send-message-official/api", {
+      const response = await fetch("https://devzapp.com.br/api-send-message-official/api", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
